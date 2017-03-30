@@ -1,3 +1,8 @@
+
+// dom_test のテキストを書き換えるスクリプト
+dom_test=document.getElementById("dom_test");
+dom_test.innerText="書き換えました!!";
+
 function getBirthday () {
   var year = document.getElementById("year").value;
   var month = document.getElementById("month").value;
